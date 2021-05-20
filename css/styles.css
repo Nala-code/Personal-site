@@ -1,0 +1,135 @@
+
+body{
+  margin: 0;
+  text-align: center;
+font-family: serif;
+color: #40514E;
+}
+h1{
+  color: #F1E3DC;
+  font-size: 55px;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento',cursive;
+}
+.important{
+  font-size: 90px;
+  margin: 0 auto 0 auto;
+}
+h3{
+  font-family: sans-serif;
+  color: #66BFBF;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #F1E3DC;
+  border-width: 6px;
+  width: 4%;
+  margin: 50px auto;
+}
+a{
+  color: #11999e;
+  font-family: sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+p{
+  color: white;
+  letter-spacing: 3px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.normal-letter-spacing{
+  letter-spacing: normal;
+  color: #EAF6F6;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  padding: 20px 0;
+}
+.intro{
+  color: black;
+  letter-spacing: normal;
+}
+.my-intro{
+  color: black;
+  letter-spacing: normal;
+  width: 30%; /* meaning that container is needed width 30% of parent container*/
+  margin: auto; /* to cetered container to webpage have to use margin: auto*/
+}
+.space-between{
+  margin-bottom: 30px;
+}
+.skill-row{
+  width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+}
+.explore-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  overflow: auto;
+}
+.editing-img{
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.creature{
+  width: 15%;
+  height: 20%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.top-container{
+  background: #79A0CA;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  position: relative;
+  margin: 75px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.footer-link{
+  color: #11999E;
+}
+.top-cloud{
+position: absolute;
+right: 350px;
+top: 100px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.btn{
+  padding-top: 100px;
+  background:linear-gradient(to bottom, #11999E 5%, #11999E 100%);
+background-color:#11999E;
+border-radius:8px;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family: 'Montserrat', sans-serif;
+font-size:17px;
+padding:11px 23px;
+text-decoration:none;
+}
+.btn:hover {
+background:linear-gradient(to bottom, #8FCFD1 5%, #8FCFD1 100%);
+background-color:#8FCFD1;
+}
